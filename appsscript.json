@@ -1,0 +1,38 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "PubSubApp",
+      "libraryId": "1BX8k4tkiA3CZGIZ0hHccfiF7o-EvjqLCt3hoU3osDQBhnGlQTRnawOGE",
+      "version": "8"
+    }, {
+      "userSymbol": "ScriptAPILibrary",
+      "libraryId": "1_Yv878TjVM-1QG3KnNYgLAm3QUJys-WQ89Pmjthyf5me_tJYXSmkiW8a",
+      "version": "2"
+    }, {
+      "userSymbol": "Chat",
+      "libraryId": "17WBe0OKt56xdsF4OlAQZkaoRDPsJGlUEJRbNM_twMj8DbMHUMB87pmTl",
+      "version": "1"
+    }, {
+      "userSymbol": "Photoslibrary",
+      "libraryId": "1eBFYvOq6PqIfLo7dtWy_tqqfvrD3bC7N_-VZj_Z-4H-cPWUHn7gFrhY3",
+      "version": "2"
+    }, {
+      "userSymbol": "GSApp",
+      "libraryId": "1wkfv_Mm0IyruEZyPZsrctcSmc1T9y0-bArl2gIzMd6RVYJAwWeJ5gpDu",
+      "version": "8"
+    }]
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": ["https://www.googleapis.com/auth/script.external_request",
+                  "https://www.googleapis.com/auth/photoslibrary.readonly"],
+  "executionApi": {
+    "access": "MYSELF"
+  },
+  "chat": {
+  }
+}
